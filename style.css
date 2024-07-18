@@ -1,0 +1,76 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    margin: auto;
+    padding: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin-top: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #05c402;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border: 1px solid #05c402;
+    border-radius: 5px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+/* 
+list-style-type: none;: Esto elimina los puntos de viñeta predeterminados de la lista <ul>, 
+haciendo que los elementos de la lista sean más limpios visualmente al no tener ningún marcador 
+visible
+
+padding: 0;: Elimina cualquier relleno interior que normalmente se agrega automáticamente alrededor de 
+los elementos de la lista. Esto asegura que no haya espacio innecesario alrededor de la lista.
+
+margin-top: 10px;: Agrega un espacio superior de 10px entre cada elemento de la lista (<li>). 
+Esto separa visualmente cada elemento de la lista, proporcionando un espaciado adecuado entre ellos.
+
+text-decoration: none;: Elimina el subrayado predeterminado de los enlaces (<a>), lo cual es comúnmente 
+aplicado por los navegadores web.
+
+display: block;: Convierte los enlaces en bloques, lo que significa que ocuparán todo el ancho 
+disponible dentro de su contenedor (<li> en este caso).
+
+padding: 10px;: Añade un relleno interior de 10px alrededor del texto dentro de cada enlace, lo que proporciona espacio entre el borde del enlace y su contenido.
+
+border: 1px solid #007bff;: Crea un borde alrededor de cada enlace con un grosor de 1px, sólido y de color azul (#007bff).
+
+border-radius: 5px;: Redondea las esquinas del borde del enlace, lo que proporciona un aspecto más suave y moderno.
+
+margin: 0 auto;: Centra horizontalmente cada enlace dentro de su contenedor (<li>), utilizando auto para que el navegador calcule automáticamente los márgenes laterales iguales a ambos lados del enlace.
+
+*/
+
+li a:hover {
+    background-color: #05c402;
+    color: #fff;
+}
+
+/*
+:hover: Esta pseudo-clase se activa cuando el usuario pasa el ratón sobre el enlace.
+
+background-color: #007bff;: Cambia el color de fondo del enlace a azul (#007bff) cuando se pasa el ratón sobre él, proporcionando feedback visual al usuario.
+
+color: #fff;: Cambia el color del texto del enlace a blanco cuando se pasa el ratón sobre él, asegurando que el texto sea legible sobre el fondo azul.
+*/
